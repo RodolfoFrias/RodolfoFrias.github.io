@@ -1,0 +1,23 @@
+#foto{
+    border-radius: 999px;
+}
+
+#foto img{
+    border-radius: 999px;
+    width: 200px;
+    height: 200px;
+}
+
+#technologies .col-6:hover {
+    border-radius: 50px;
+    background: rgb(218, 210, 208);
+    transition: 1s;
+}
+
+#technologies img{
+    width: 100px;
+}
+
+#introduceMe p {
+    font-size: 30px;
+}
