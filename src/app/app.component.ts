@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'rodolfofrias';
 
   ngOnInit(){
-    alert('This web page is still in development thus some things are not working, thank you');
+    //alert('This web page is still in development thus some things are not working, thank you');
   }
 
 }
