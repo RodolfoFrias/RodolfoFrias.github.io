@@ -1,7 +1,13 @@
-#projects .item:hover{
-    transition: 1s;
-    
+.mousehover {
+   transition: 1s;
+   background: rgb(242, 244, 244);
 }
+
+.mouseout {
+    transition: 1s;
+    background: white;
+}
+
 
 #projects .item {
     cursor: pointer;
