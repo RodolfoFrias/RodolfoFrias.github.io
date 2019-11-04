@@ -1,13 +1,15 @@
-<div class="row justify-content-around my-5 shadow" id="projects">
+<div class="row justify-content-around shadow my-5" id="projects">
 
-    <div *ngFor="let project of projects" class="col-12 col-md-5 shadow border item my-4" (mouseover)="setMouseOver();" (mouseout)="setMouseOut();">
+    <div *ngFor="let project of projects" class="col-12 col-md-5 item my-4">
       <div class="row text-center">
         <div class="col-12">
             <h4>{{project.title}}</h4>
             <hr>
         </div>
         <div class="col-12">
-          <img class="img-thumbnail" src="{{project.imageUrl}}" alt="" style="width: 150px; height: 150px;">
+          <a href="{{project.projectUrl}}" target="_blank">
+              <img class="img-thumbnail" src="{{project.imageUrl}}" alt="" style="width: 150px; height: 150px;">
+          </a>
         </div>
       </div>
       <div class="row p-3">
